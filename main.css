@@ -1,0 +1,78 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.5;
+    background-color: rgb(207, 203, 203);
+    }
+
+a{
+    font-size: 12px;
+}
+
+
+
+.bgimg-1 {
+    background-image: url('/albums/jason-leung.jpg');
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    text-align: right;
+    
+} 
+
+#welcome, #textaboutme {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bgimg-2 {
+    background-image: url('/albums/background.jpg');
+    min-height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#modal01{
+
+  
+}
+
+/* Create a Parallax Effect */
+/* .bgimg-1, .bgimg-2, .bgimg-3 {
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} */
+
+/* First image (Logo. Full height) */
+/* .bgimg-1 {
+background-image: url('/albums/background.jpg');
+min-height: 100%;
+} */
+
+/* Second image (Portfolio) */
+/* .bgimg-2 {
+background-image: url("/albums/jason-leung.jpg");
+min-height: 400px;
+} */
+
+/* Third image (Contact) */
+/* .bgimg-3 {
+background-image: url("/albums/andrej-lisakov-fGZ2x8wFxC0-unsplash.jpg");
+min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;} */
+
