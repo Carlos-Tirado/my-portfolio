@@ -3,11 +3,14 @@ console.log("javascript connection")
 
 // Modal Image Gallery
 function onClick(element) {
-    document.getElementById("img01").src = element.src;
-    document.getElementById("modal01").style.display = "block";
-    var captionText = document.getElementById("caption");
-    captionText.innerHTML = element.alt;
+    document.getElementById("img01").src = element.src; //imagen
+    document.getElementById("modal01").style.display = "block"; //abre la imagen
+
+    let captionText = document.getElementById("caption"); 
+    captionText.innerHTML = element.alt; // allows to see the text
 }
+
+
 
 // Change style of navbar on scroll
 // window.onscroll = function() {myFunction()};

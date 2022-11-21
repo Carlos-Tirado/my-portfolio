@@ -2,48 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="main.js" defer></script>
-    <title>Document</title>
-
     <link href="main.css" rel="stylesheet">
     
-    
     <title>BasicPortfolio</title>
-
 </head>
+
 <body> 
-<!-- <div class="w3-top"> -->
-    <!-- <div class="bgimg-1 w3-display-container w3-opacity-min" id="home"> -->
-     
-            
-            <div class="container" class="w3-padding-large" >
-                
-                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" 
-                onclick="toggleFunction()" title="Toggle Navigation Menu">
-                <i class="fa fa-bars"></i>
-            </a>
-            <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-            <a href="#portfolio" class="w3-bar-item w3-button">PORTFOLIO</a>
-            <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+    <div class="w3-top">
+        <div class="container1" class="w3-padding-large" >
+            <a href="#home" class="w3-bar-item w3-button"
+            style="font-size:12px">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" 
+            style="font-size:12px">ABOUT</a>
+            <!-- <a href="#portfolio" class="w3-bar-item w3-button"
+            style="font-size:12px">PORTFOLIO</a> -->
+            <a href="#contact" class="w3-bar-item w3-button"
+            style="font-size:12px">CONTACT</a>
+            <a href="https://www.linkedin.com/in/carlos-a-lopez-tirado-21aa8116b/" 
+            class="fa fa-linkedin-square w3-hover-opacity" href="#linkedin" 
+            style="font-size:30px;background-color: black;color:white"></a>
+            <a href="https://github.com/Carlos-Tirado" 
+            class="fa fa-github-square w3-hover-opacity" href="#github" 
+            style="font-size:30px;background-color: black;color:white"></a>          
         </div>
-            
-            <video autoplay muted loop id="myVideo" width="1000" class="w3-opacity-med">
-                    <source src="albums/190915_B_01_Timelapse Danang_05.mp4" type="video/mp4">
-                </video>
-            
-                    
-                    <!-- <div  class="title"></div> -->
-                    <div class="w3-display-middle" style="white-space:nowrap">
-                        <span class="w3-center w3-padding-large w3-black w3-xxlarge w3-wide 
-                        w3-animate-opacity" >WECOLME TO CARLOS' PROFILE
-                    </span>
-                </div>
-            </div>
+    </div>
+
+    <div id="home">
+            <video autoplay muted loop id="myVideo" width="1000" class="w3-opacity-med" >
+                <source src="albums/190915_B_01_Timelapse Danang_05.mp4" type="video/mp4">
+            </video>
+        <div class="w3-display-middle" style="white-space:nowrap">
+            <span class="w3-center w3-padding-large w3-black w3-xxlarge 
+            w3-wide w3-animate-opacity" >WECOLME TO CARLOS' PROFILE</span>
+        </div>
+    </div>
     
 
 
@@ -53,40 +51,44 @@
 <div class="w3-content w3-container" id="about">
         <br>
         <h3 class="w3-center">ABOUT ME</h3>
-        <p class="w3-center" ><em>I love photography</em></p>
-        <p id="textaboutme">We have created a fictional "personal" website/blog, and our fictional 
-        character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="w3-center" ><em></em></p>
+        <br>
+        <p id="textaboutme">A newbie in the tech world but curious and passionate about coding 
+            with experience in JavaScript, React, HTML and CSS. <br>I laso have experience in business management 
+            in the fast food and casual restaurant sector, customer service and staff training. 
+            As a training coordinator, I facilitated different courses such as induction 
+            to new staff, training and certification of new trainers, shift management 
+            in a restaurant, transition to leader and accountability besides monitoring and 
+            evaluation of training and knowledge of upcoming managers in new restaurants.</p>
     <div class="w3-row">
         <div class="w3-col m6 w3-center w3-padding-large">
-        <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
-        <img src="/albums/unnamed.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" 
+        <p><b><i class="fa fa-user w3-margin-right"></i>Carlos Lopez-Tirado</b></p><br>
+        <img src="./albums/unnamed.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" 
         alt="Photo of Me" width="250" height="333">
         </div>
     <br>
     <br>
     <br>
         <div class="w3-col m6 w3-hide-small w3-padding-large" id="welcome">
-        <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>I have completed a Full Stack Engineer on Front-end focused from 
+            Momentum Learning and looking for opportunities. I am confident that my academic, 
+            experience history and drive for creative solutions will bring a positive new 
+            facet to your team.
+            Inspired by still learning and improving my skills knowledge, I thrive on looking 
+            to be part of a company that take me to the next level.
+            I am a person who pays attention to details but also aim to bring a cheerful 
+            and enthusiastic attitude to every project. Bringing strengths in problem solving, 
+            motivation and customer service, I know that my creative and analytical abilities 
+            will serve to bring a valuable addition to your organization. 
+            I look forward to the opportunity to develop more skills and grow in your company. 
+            I am looking forward to further discussing the role.</p>
         </div>
     </div>
 </div>
 
-<div class="bgimg-2 w3-display-container w3-opacity-min">
+<!-- <div class="bgimg-2 w3-display-container w3-opacity-min">
     <div class="w3-display-middle">
-        <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        <span class="w3-xxlarge w3-text-purple w3-wide">PORTFOLIO</span>
     </div>
 </div>
 
@@ -99,52 +101,50 @@
 
 <div class="w3-row-padding w3-center">
         <div class="w3-col m3">
-            <img src="/albums/calculator.jpg" style="width:60%" 
+            <img src="./albums/calculator.jpg" style="width:60%" 
             onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
         </div>
 
         <div class="w3-col m3">
-            <img src="/albums/customerdirectory.jpg" style="width:60%" 
+            <img src="./albums/customerdirectory.jpg" style="width:60%" 
             onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
         </div>
 
         <div class="w3-col m3">
-            <img src="/albums/bookshelf.jpg" style="width:60%" 
+            <img src="./albums/bookshelf.jpg" style="width:60%" 
             onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
         </div>
 
         <div class="w3-col m3">
-            <img src="/albums/slideshow.jpg" style="width:60%" 
+            <img src="./albums/slideshow.jpg" style="width:60%" 
             onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
         </div>
 </div>
 <br>
 <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-        <img src="/albums/calculator.jpg" style="width:60%" 
+        <img src="./albums/calculator.jpg" style="width:60%" 
         onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
     </div>
 
     <div class="w3-col m3">
-        <img src="/albums/customerdirectory.jpg" style="width:60%" 
+        <img src="./albums/customerdirectory.jpg" style="width:60%" 
         onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
     </div>
 
     <div class="w3-col m3">
-        <img src="/albums/bookshelf.jpg" style="width:60%" 
+        <img src="./albums/bookshelf.jpg" style="width:60%" 
         onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
     </div>
 
     <div class="w3-col m3">
-        <img src="/albums/slideshow.jpg" style="width:60%" 
+        <img src="./albums/slideshow.jpg" style="width:60%" 
         onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
     </div>
 </div>
-        <br>
-        
-        <button class="w3-button w3-padding-large w3-light-grey" style="margin: top 50px;">LOAD MORE</button>
+
     </div>
-</div>
+</div> -->
 
 
 
@@ -165,29 +165,34 @@
     </div>
 </div>
 
-<div class="w3-content w3-container w3-padding-64" id="contact">
-    <div class="w3-xxlarge w3-section">
-        <i href="#" class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <link  class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/carlos-a-lopez-tirado-21aa8116b/">
-      </div>
+<div class="w3-content w3-container w3-padding-16" style="display: flex; justify-content: space-around">
 
-        <div class="w3-row w3-padding-32 w3-section">
-            <div class="w3-col m4 w3-container">
-            <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
-            </div>
-            <div class="w3-col m8 w3-panel">
-            <div class="w3-large w3-margin-bottom">
-                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-                <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
-            </div>
-
-
+        <div class="w3-xxlarge w3-center" id="icons">
+        <a href="https://www.linkedin.com/in/carlos-a-lopez-tirado-21aa8116b/" 
+        class="fa fa-linkedin-square w3-hover-opacity" 
+        style="font-size:56px;background-color: rgb(247, 244, 244)"></a>
+        <a href="https://github.com/Carlos-Tirado" 
+        class="fa fa-github-square w3-hover-opacity"
+        style="font-size:56px;background-color: rgb(247, 244, 244);"></a>
+</div></div>
 </div>
+    
+    <div class="w3-row w3-padding-64 w3-section" id="contact">
+
+        <div class="w3-col w3-left" style="margin-left: 40%;">
+            <!-- <div class="w3-xxlarge w3-section w3-center"></div> -->
+            <div class="w3-large" >
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, IL, USA <br>
+                <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +01 312 483 3608<br>
+                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: carlosaltirado@mail.com<br>
+            </div></div></div>
+            <footer class="w3-center w3-black w3-padding-16 w3-opacity w3-hover-opacity-off">
+                <!-- <a href="#home" class="w3-button w3-light-grey">
+                    <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> -->
+        </footer>
+
+
+
 </body>
 </html>
 

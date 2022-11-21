@@ -1,37 +1,43 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;}
+
+body, html, a{
     height: 100%;
     color: #777;
     line-height: 1.5;
-    background-color: rgb(207, 203, 203);
+    background-color: rgb(247, 244, 244);
     }
 
-a{
-    font-size: 12px;
+
+#myVideo{
+    min-width: 108%;
+    padding-top: 38px; 
 }
 
-
-
-.bgimg-1 {
-    background-image: url('/albums/jason-leung.jpg');
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.container{
-    text-align: right;
-    
+.container1{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 500px;
+    padding-right: 20px;
+    background-color: black; 
+    color: white;
 } 
 
+#about{
+    padding-top: 65px;
+    padding-bottom: 55px;
+    text-justify: auto;
+    letter-spacing: 1px;
+}
 #welcome, #textaboutme {
     text-align: justify;
     text-justify: inter-word;
 }
 
 .bgimg-2 {
-    background-image: url('/albums/background.jpg');
+    background-image: url('./albums/background.jpg');
     min-height: 50%;
     background-attachment: fixed;
     background-position: center;
@@ -40,39 +46,15 @@ a{
 }
 
 .w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-#modal01{
-
-  
+.w3-hover-opacity {
+    cursor: pointer;
 }
 
-/* Create a Parallax Effect */
-/* .bgimg-1, .bgimg-2, .bgimg-3 {
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-} */
-
-/* First image (Logo. Full height) */
-/* .bgimg-1 {
-background-image: url('/albums/background.jpg');
-min-height: 100%;
-} */
-
-/* Second image (Portfolio) */
-/* .bgimg-2 {
-background-image: url("/albums/jason-leung.jpg");
-min-height: 400px;
-} */
-
-/* Third image (Contact) */
-/* .bgimg-3 {
-background-image: url("/albums/andrej-lisakov-fGZ2x8wFxC0-unsplash.jpg");
-min-height: 400px;
+.bgimg-3 {
+    background-image: url('./albums/andrej-lisakov-fGZ2x8wFxC0-unsplash.jpg');
+    min-height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;} */
-
